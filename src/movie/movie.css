@@ -1,0 +1,32 @@
+.Movie,
+.Movie img{
+  width: 185px;
+  height: 278px;
+}
+.Movie h4{
+  text-align-last:center;
+  color: rgb(184, 184, 184);
+  width: 100%;
+  padding: 15px 0px;
+  background: linear-gradient(to top, #440b0b, transparent);
+  bottom: 15px;
+}
+
+.Movie{
+  display: inline-block;
+  margin: 15px;
+  background: #680202;
+  cursor:pointer;
+  transition: all 0.2s ease-out;
+  position: relative;
+}
+
+.Movie:hover{
+  transform: scale(1.1,1.1);
+}
+@media (max-width:804px){
+  .Movie{
+    display: block;
+    margin: 15px auto;
+  }
+}
